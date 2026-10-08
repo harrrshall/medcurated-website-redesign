@@ -4,3 +4,15 @@
 !.env.example
 .vercel/
 node_modules/
+
+# Local credentials and operational artifacts
+.openai/
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.sql

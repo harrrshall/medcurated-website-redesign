@@ -147,3 +147,9 @@ Verify:
 - Existing analytics, legal pages, backend integrations and unrelated routes remain intact.
 
 Provide a concise final summary of what changed, how it was verified, and any factual or integration items that still require my input. Include desktop and mobile screenshots if your environment supports them. Follow the original project's deployment workflow; do not replace production DNS, change account access or publish to a different hosting account without explicit authorization.
+
+## Confidentiality and publication boundary
+
+Keep this migration limited to website source and approved public-facing content. Do not commit, upload, paste into prompts, or expose in browser code any secrets, authentication tokens, environment files, private keys, internal endpoints, infrastructure identifiers, private customer or employee details, real patient records, production logs, database exports, contracts or unpublished business information.
+
+Treat private repository access as a delivery mechanism, not permission to include sensitive information. Use fictional records in all examples. Keep implementation guidance in repository documentation rather than displaying it to website visitors. Before committing or publishing, inspect the exact changed files for sensitive content, including source maps and generated assets. If a fact is internal or its publication status is unclear, omit it and ask the owner rather than publish it. Do not change repository visibility or grant access without explicit authorization.
